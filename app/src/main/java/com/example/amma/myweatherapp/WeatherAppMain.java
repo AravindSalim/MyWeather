@@ -267,6 +267,7 @@ public class WeatherAppMain extends AppCompatActivity {
 
     //  updateUI() :
     private void updateUI(WeatherDataFromJSON weather) {
+
         mTemperatureLabel.setText(weather.getOldTemperature());
         mCityLabel.setText(weather.getOldCity());
         WindSpeed = Double.toString(weather.getOldWindSpeed()).concat(" m/s");
