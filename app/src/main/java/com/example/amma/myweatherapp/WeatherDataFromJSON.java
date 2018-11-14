@@ -77,8 +77,8 @@ public class WeatherDataFromJSON {
             case "10d" : return "tend";
             case "11n" : return "o11n";
             case "11d" : return "o11d";
-            case "13n" : return "o13n";
-            case "13d" : return "o13d";
+            case "13n" : return "thirteenn";
+            case "13d" : return "thirteend";
             case "15n" : return "015n";
             case "15d" : return "o15d";
             case "50n" : return "fiftyd";
