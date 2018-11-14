@@ -22,18 +22,19 @@
                 android:onClick="ButtonMap"
                 android:src="@drawable/gps_marker" />
 
-            <TextView
-                android:id="@+id/locationTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/WindSpeed"
-                android:layout_centerHorizontal="true"
-                android:fontFamily="cursive"
-                android:gravity="center_horizontal"
-                android:text="@string/default_location"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/white"
-                android:textSize="50sp" />
+    <TextView
+        android:id="@+id/locationTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="@string/default_location"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
 
             <TextView
                 android:id="@+id/tempTV"
@@ -77,18 +78,18 @@
                     />
             </FrameLayout>
 
-            <TextView
-                android:id="@+id/WindSpeed"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="46dp"
-                android:fontFamily="cursive"
-                android:gravity="center_horizontal"
-                android:text="@string/WindSpeed"
-                android:textColor="@color/white"
-                android:textSize="35sp" />
+    <TextView
+        android:id="@+id/WindSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="@string/WindSpeed"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
 
 
         </RelativeLayout>

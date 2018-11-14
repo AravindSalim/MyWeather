@@ -100,7 +100,7 @@ public class WeatherDataFromJSON {
     }
 
     public String getTemperature() {
-        return mTemperature + "°";
+        return mTemperature+"°";
     }
 
     public String getCity() {
@@ -124,7 +124,7 @@ public class WeatherDataFromJSON {
     }
     public String getOldTemperature() {
 
-        return oldCityTemperature;
+        return oldCityTemperature+"°";
 
     }
     public double getOldWindSpeed() {
