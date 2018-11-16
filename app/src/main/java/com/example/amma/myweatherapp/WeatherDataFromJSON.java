@@ -84,13 +84,7 @@ public class WeatherDataFromJSON {
             case "50n" : return "fiftyd";
             case "50d" : return "fiftyd";
             default: return "cantfind";
-
-
-
         }
-
-
-
     }
 
     // Getter methods for temperature, city, and icon name:
